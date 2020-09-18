@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="text-align : center"> LAB 2</h1>
+
+<div id="main">
+<p id="demo" style="text-align : center">Hello JavaScript</P>
+
+
+<p>
+<button type="button" onclick=
+"document.getElementById('demo').style.fontSize='20px'">
+Click me!</button></p>
+
+<p>
+<img id="myImage" src="dogo.jpg" style="width:100px">
+</P>
+<p>
+<button onclick= 
+"document.getElementById('myImage').src='catt.jpg'">Cat
+</button></p>
+
+
+<h2>Shiva Lokesh Reddy</h2>
+<button type="button" onclick=
+'document.getElementById("demo1").innerHTML = "4VV17CS089"'> Click for USN</button>
+
+<p id="demo1"></p>
+</div>
+
+
+<button onclick="document.getElementById('main').style.display='none'">
+      hide all
+    </button>
+    <button onclick="document.getElementById('main').style.display='block'">
+      Show the content
+	</button>
+
+
+</body>
+</html>		
